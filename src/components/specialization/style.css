@@ -1,0 +1,106 @@
+.specia {
+    background-color: #FFFFFF;
+    padding: 4% 0;
+    background-image: url(../../assets/specialization/Vector\ 1.png) , url(../../assets/specialization/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-x: left , right;
+    background-position-y: 0px , 350px;
+}
+
+.sec_img {
+    padding-bottom: 12%;
+}
+
+.spec .spec_h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.spec h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 2% 0 8%;
+    letter-spacing: 1px;
+}
+
+.spec ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spec ul li {
+    width: 330px;
+    margin: 2% 2%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #EDEDED;
+    transition: .65s;
+    cursor: pointer;
+}
+
+.spec ul li:hover {
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    transform: scale(1.1);
+}
+
+.spec ul li .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .bx,
+ion-icon {
+    font-size: 35px;
+    margin-right: 2%;
+}
+
+.logo .shop {
+    color: #4C822A;
+}
+
+.logo .fig {
+    color: #F24E1E;
+}
+
+.logo .ww {
+    color: #4353FF;
+}
+
+.logo .php {
+    border: 1px solid black;
+    border-radius: 60%;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+}
+
+.logo h3 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.spec ul li p {
+    padding: 7% 0;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.spec ul li a {
+    border-bottom: 1px solid #313131;
+    color: #313131;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .65s;
+}
+
+.spec ul li a:hover {
+    color: var(--color--);
+    border-bottom: 1px solid var(--color--);
+}
+.spec .buttons {
+    text-align: center;
+}

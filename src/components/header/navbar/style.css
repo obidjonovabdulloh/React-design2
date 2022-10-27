@@ -1,0 +1,97 @@
+nav{
+    background-color: #F2F2F2;
+    background-image: url(../../../assets/header/navbar/Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navbar ul li a {
+    color: var(--color1--);
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .65s;
+}
+
+.navbar ul li a:hover {
+    color: var(--color--);
+    transform: scale(1.1);
+}
+
+.navbar ul li button {
+    color: white;
+    background-color: var(--color--);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid var(--color--);
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 0px 100px 60px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    transition: .65s;
+}
+.navbar ul li button:hover {
+    background-color: #F2F2F2;
+    color: var(--color--);
+}
+.modal {
+    position: absolute ;
+    top: 5;
+    left: 37%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px; 
+}
+.modal h3 {
+    margin-bottom: 2%;
+}
+.modal input {
+    margin-bottom: 8%;
+    padding: 10px 180px 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #49AD09;
+    transition: .65s;
+}
+.modal input:focus{
+    box-shadow: 0px 0px 20px 0px #49AD09;
+}
+.modal .sing {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 5%;
+    border: 1px solid var(--color--);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #49AD09;
+    transition: .65s;
+}
+.modal .sing:hover {
+    background-color: white;
+    color: #49AD09;
+}
+.iks {
+    text-align: end;
+    cursor: pointer;
+}
+.iks button {
+    background-color: white;
+    border: none;
+    font-weight: 900;
+}

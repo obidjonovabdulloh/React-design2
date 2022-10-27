@@ -1,0 +1,91 @@
+.customers {
+    padding: 5% 0;
+}
+
+.cus .cus_h3 {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.cus h2 {
+    text-align: center;
+    padding: 2% 0 5%;
+}
+.cus .pos ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pos {
+    background: #F2F2F2;
+    width: 750px;
+    margin: 0 auto;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+}
+.pos ul li:nth-child(1) {
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    width: 330px;
+}
+.pos ul li:nth-child(2) {
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    left: 77%;
+    width: 330px;
+}
+.pos ul li:nth-child(3) {
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    right: 77%;
+    width: 330px;
+}
+.pos ul li {
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+}
+.pos ul li h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.pos ul li p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 3% 0;
+}
+.pos ul li ion-icon {
+    font-size: 18px;
+    color: yellow;
+}
+.cos_p {
+    font-weight: 700;
+}
+.leftright {
+    text-align: center;
+    margin-top: 50%;
+    margin-left: 40%;
+    background-color: white;
+    width: 18%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.leftright ion-icon {
+    cursor: pointer;
+    transition: .65s;
+    border-radius: 50%;
+    padding: 2%;
+}
+.leftright ion-icon:hover {
+    background-color: black;
+    color: white;
+}
